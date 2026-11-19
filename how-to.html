@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"><title>How to use Dashboard Math</title></head><body><main><header><img src="icon-192.png" alt=""><strong>Dashboard Math</strong></header>
+<h1>How to use Dashboard Math</h1>
+<h2>Before you start</h2>
+<ul><li>You need a monday.com account with dashboards, and at least one board that holds numbers, statuses or dates.</li><li>Members and admins can set up a widget. Viewers cannot load app data in monday.com.</li></ul>
+<h2>Install</h2>
+<ol><li>Open the monday.com apps marketplace and search for "Dashboard Math".</li><li>Choose Install and pick the workspaces that may use it.</li></ol>
+<h2>Add your first calculation</h2>
+<ol><li>Open a dashboard and choose Add widget, then Apps, then Dashboard Math.</li><li>Connect the board that holds your numbers.</li><li>Choose Get started.</li></ol>
+<h2>1. Name your numbers</h2>
+<p>Choose Add a number. Give it a short name, pick a calculation (sum, average, count, smallest, largest or median) and a column. Narrow it with a group or a filter such as "Where Status is Done". Choose items, subitems or both.</p>
+<img class="shot" src="s-numbers.png" alt="Two numbers named won and closed, each a count of items filtered by stage">
+<h2>2. Type your formula</h2>
+<p>Use the names of your numbers with <code>+ - * /</code> and brackets. For example <code>won / closed * 100</code>. You can also use <code>round(x, 2)</code>, <code>min</code>, <code>max</code>, <code>abs</code> and <code>if(condition, then, else)</code>.</p>
+<img class="shot" src="s-formula.png" alt="The formula box with won divided by closed times 100">
+<h2>3. Choose how it looks</h2>
+<p>Pick number, percent or currency and how many decimals. Turn on "Compare with the previous period" and pick a date column to see the change since last month, quarter or year.</p>
+<img class="shot" src="s-working.png" alt="The finished widget showing the result, the change on last month and the numbers behind it">
+<h2>Good to know</h2>
+<ul><li>A divide by zero or an empty column shows "n/a" and never a wrong number.</li><li>The widget updates a few seconds after the board changes.</li><li>Very large boards are read up to 10,000 items, and the widget says so when that limit is reached.</li></ul>
+<h2>Help</h2><p><a href="https://github.com/micwalker17/dashboard-math-site/issues/new">Send us a support request</a>.</p>
+</main></body></html>
